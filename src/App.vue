@@ -28,11 +28,10 @@
       <!-- Banner -->
       <section id="banner">
         <div class="inner">
-          <div class="logo"><span class="icon fa-gem"></span></div>
-          <h2>This is The Cookbook</h2>
+          <div class="logo"><span class="fa fa-utensils fa-4x circle-icon"></span></div>
+          <h2>The Cookbook</h2>
           <p>
-            Another free + fully responsive site template by
-            <a href="http://html5up.net">HTML5 UP</a>
+            Family Recipes. Family blah blah blah
           </p>
         </div>
       </section>
