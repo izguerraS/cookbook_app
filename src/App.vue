@@ -28,7 +28,7 @@
       <!-- Banner -->
       <section id="banner">
         <div class="inner">
-          <div class="logo"><span class="fa fa-utensils fa-4x circle-icon"></span></div>
+          <div class="logo"><span class="fas fa-pepper-hot fa-3x"></span></div>
           <h2>The Cookbook</h2>
           <p>
             Family Recipes. Family blah blah blah
@@ -43,7 +43,7 @@
           <div class="inner">
             <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
             <div class="content">
-              <h2 class="major">Magna arcu feugiat</h2>
+              <h2 class="major">Create Recipes</h2>
               <p>
                 Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non,
                 sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam
@@ -59,7 +59,7 @@
           <div class="inner">
             <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
             <div class="content">
-              <h2 class="major">Tempus adipiscing</h2>
+              <h2 class="major">Edit Recipes</h2>
               <p>
                 Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non,
                 sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam
@@ -75,7 +75,7 @@
           <div class="inner">
             <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
             <div class="content">
-              <h2 class="major">Nullam dignissim</h2>
+              <h2 class="major">Share Recipes</h2>
               <p>
                 Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non,
                 sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam
@@ -89,7 +89,7 @@
         <!-- Four -->
         <section id="four" class="wrapper alt style1">
           <div class="inner">
-            <h2 class="major">Vitae phasellus</h2>
+            <h2 class="major">Share Recipes. Keep Mem</h2>
             <p>
               Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce
               tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus.
@@ -184,3 +184,5 @@
 </template>
 
 <style></style>
+
+<script></script>
