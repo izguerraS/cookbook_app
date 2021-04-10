@@ -4,6 +4,10 @@ import Home from "../views/Home.vue";
 import Signup from "../views/Signup.vue";
 import Login from "../views/Login.vue";
 import Logout from "../views/Logout.vue";
+import RecipesIndex from "../views/RecipesIndex.vue";
+import Welcome from "../views/Welcome.vue";
+import RecipesNew from "../views/RecipesNew.vue";
+import RecipesShow from "../views/RecipesShow.vue";
 
 Vue.use(VueRouter);
 
@@ -28,6 +32,27 @@ const routes = [
     name: "logout",
     component: Logout,
   },
+  {
+    path: "/recipes",
+    name: "RecipesIndex",
+    component: RecipesIndex,
+  },
+  {
+    path: "/recipes/new",
+    name: "RecipesNew",
+    component: RecipesNew,
+  },
+  {
+    path: "/recipes/show",
+    name: "RecipesShow",
+    component: RecipesShow,
+  },
+  {
+    path: "/welcome",
+    name: "Welcome",
+    component: Welcome,
+  },
+
   {
     path: "/about",
     name: "About",

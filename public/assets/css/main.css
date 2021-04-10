@@ -3555,7 +3555,7 @@ body.is-menu-visible #menu .inner {
   text-transform: uppercase;
 }
 /* HOME-BANNER IMAGE LARGE */
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1800px) {
   #banner {
     padding: 7em 0 8.25em 0;
     background-color: #2e3141;
@@ -3566,12 +3566,33 @@ body.is-menu-visible #menu .inner {
     margin-bottom: -6.5em;
   }
 }
-/* ABOUT-BANNER IMAGE LARGE*/
-@media screen and (max-width: 1280px) {
+/* About-BANNER IMAGE LARGE*/
+@media screen and (max-width: 1800px) {
   .about #banner {
     padding: 7em 0 8.25em 0;
     background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)),
       url("../../images/solocook.jpg");
+    background-size: auto, cover;
+    background-position: center, center;
+    margin-bottom: -6.5em;
+  }
+}
+/* NewRecipe -BANNER IMAGE LARGE*/
+@media screen and (max-width: 1800px) {
+  .recipes-new #banner {
+    padding: 7em 0 8.25em 0;
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)),
+      url("../../images/NewRecipe2.jpg");
+    background-size: auto, cover;
+    background-position: center, center;
+    margin-bottom: -6.5em;
+  }
+}
+/* Signup -BANNER IMAGE LARGE*/
+@media screen and (max-width: 1800px) {
+  .signup #banner {
+    padding: 7em 0 8.25em 0;
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/BOH.jpg");
     background-size: auto, cover;
     background-position: center, center;
     margin-bottom: -6.5em;

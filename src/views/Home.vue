@@ -14,15 +14,14 @@
       <!-- One -->
       <section id="one" class="wrapper spotlight style1">
         <div class="inner">
-          <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+          <a href="#" class="image"><img src="images/createrecipe2.jpg" alt="" /></a>
           <div class="content">
             <h2 class="major">Create Recipes</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non,
-              sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam
-              ultrices, neque et faucibus viverra, ex nulla cursus.
+              Show off your latest and greatest recipe! Wheter it's a salsa or a full fledged meal, The Cookbook is here
+              to strengthen the newcomers and show veterans new techniques!
             </p>
-            <a href="#" class="special">Learn more</a>
+            <a href="/recipes/new" class="special">Learn more</a>
           </div>
         </div>
       </section>
@@ -30,13 +29,12 @@
       <!-- Two -->
       <section id="two" class="wrapper alt spotlight style2">
         <div class="inner">
-          <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+          <a href="#" class="image"><img src="images/editrecipe.jpg" alt="" /></a>
           <div class="content">
             <h2 class="major">Edit Recipes</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non,
-              sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam
-              ultrices, neque et faucibus viverra, ex nulla cursus.
+              Edit your latest and greatest recipe! If you created the recipe, you can also delete it if you'd like to
+              resubmit.
             </p>
             <a href="#" class="special">Learn more</a>
           </div>
@@ -46,13 +44,11 @@
       <!-- Three -->
       <section id="three" class="wrapper spotlight style3">
         <div class="inner">
-          <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+          <a href="#" class="image"><img src="images/showrecipe.jpg" alt="" /></a>
           <div class="content">
             <h2 class="major">Share Recipes</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non,
-              sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam
-              ultrices, neque et faucibus viverra, ex nulla cursus.
+              Time to show off! Show us your latest photogenic food picture!
             </p>
             <a href="#" class="special">Learn more</a>
           </div>
@@ -62,7 +58,7 @@
       <!-- Four -->
       <section id="four" class="wrapper alt style1">
         <div class="inner">
-          <h2 class="major">Share Recipes. Keep Mem</h2>
+          <h2 class="major">Share Recipes. Keep Memories!</h2>
           <p>
             Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce
             tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus.
