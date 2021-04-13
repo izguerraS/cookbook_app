@@ -65,12 +65,7 @@
           <br />
           <div class="form-group" form action="/action_page.php">
             <label>Image Url:</label>
-            <input
-              type="text"
-              class="form-control"
-              placeholder="example: https://www.recipes.com/image"
-              v-model="imageUrl"
-            />
+            <input type="text" class="form-control" placeholder="MUST BEGIN WITH 'HTTPS://'" v-model="imageUrl" />
           </div>
           <br />
           <br />
