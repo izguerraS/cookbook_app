@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="recipes-index">
     <section id="banner">
       <div class="inner">
         <h2>{{ message }}</h2>

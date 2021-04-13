@@ -1,48 +1,50 @@
 <template>
   <div class="recipes-edit">
-    <header class="masthead" style="background-image: url('/img/messy_kitchen.jpg')">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="site-heading">
-              <h1>Edit Recipe</h1>
-              <span class="subheading">
-                Edit a Currrently Existing Recipe
-              </span>
+    <section id="banner">
+      <div class="inner">
+        <div class="logo"><span class="fas fa-pepper-hot fa-3x"></span></div>
+
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                  <h2>Edit Recipe</h2>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </header>
-    <form v-on:submit.prevent="submit()">
-      <h1>Recipe: {{ recipe.title }}</h1>
+        </header>
+        <form v-on:submit.prevent="submit()">
+          <h1>Recipe: {{ recipe.title }}</h1>
 
-      <ul>
-        <li class="text-danger" v-for="error in errors">{{ error }}</li>
-      </ul>
-      <div class="form-group">
-        <label>Title:</label>
-        <input type="text" class="form-control" v-model="recipe.title" />
+          <ul>
+            <li class="text-danger" v-for="error in errors">{{ error }}</li>
+          </ul>
+          <div class="form-group">
+            <label>Title:</label>
+            <input type="text" class="form-control" v-model="recipe.title" />
+          </div>
+          <div class="form-group">
+            <label>Ingredients:</label>
+            <input type="text" class="form-control" v-model="recipe.ingredients" />
+          </div>
+          <div class="form-group">
+            <label>Directions:</label>
+            <input type="text" class="form-control" v-model="recipe.directions" />
+          </div>
+          <div class="form-group">
+            <label>Prep Time:</label>
+            <input type="text" class="form-control" v-model="recipe.prep_time" />
+          </div>
+          <div class="form-group">
+            <label>Image Url:</label>
+            <input type="text" class="form-control" v-model="recipe.image_url" />
+          </div>
+          <input type="submit" class="btn btn-primary" value="Submit" />
+        </form>
       </div>
-      <div class="form-group">
-        <label>Ingredients:</label>
-        <input type="text" class="form-control" v-model="recipe.ingredients" />
-      </div>
-      <div class="form-group">
-        <label>Directions:</label>
-        <input type="text" class="form-control" v-model="recipe.directions" />
-      </div>
-      <div class="form-group">
-        <label>Prep Time:</label>
-        <input type="text" class="form-control" v-model="recipe.prep_time" />
-      </div>
-      <div class="form-group">
-        <label>Image Url:</label>
-        <input type="text" class="form-control" v-model="recipe.image_url" />
-      </div>
-      <input type="submit" class="btn btn-primary" value="Submit" />
-    </form>
+    </section>
   </div>
 </template>
 
